@@ -33,3 +33,11 @@ Text should be deletable character-by-character.
 
 - ## 📌 Purpose
 This project was created to practice bug reproduction and debugging in a real-world scenario.
+
+
+## 🛠️ Fix (Possible Solution)
+
+- Ensure input field has proper focus
+- Check for scripts blocking Backspace/Delete input
+- Handle input in Update instead of FixedUpdate
+- Validate EventSystem configuration
